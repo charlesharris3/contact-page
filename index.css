@@ -1,0 +1,102 @@
+/*
+    CSS Contact Page stylesheet
+    Author: Charles Harris III
+*/
+
+/* Reset all margins and padding on the page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact page header */
+.contact-page-header{
+    width: 100%;
+    background-color: #f2f3f4;
+    color:azure;
+    padding-left: 50px;
+}
+
+/* Contact page business details/form container */
+.contact-page-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 75px;
+}
+
+/* Contact page company info background */
+.contact-page-company-info{
+    background-color: #e60026;
+    padding:25px;
+}
+
+
+/* Contact page company name */
+.contact-page-company-info-company-name{
+    font-size: 2.441em;
+    margin-bottom: 50px;
+    color: #f8f8ff;
+}
+
+/* Contact page company details */
+.contact-page-company-info-business-contact-details{
+    color: #f8f8ff;
+    font-size: 1.563em;
+}
+
+/* Contact page form */
+.contact-page-form{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact page form inputs */
+input{
+    padding: 5px;
+    height: 25px;
+    margin: 5px;
+}
+
+/* Contact page dropdown */
+.contact-page-dropdown-menu{
+    padding: 5px;
+    height: 30px;
+    margin: 5px;
+}
+
+/* Contact page message box */
+.contact-page-message{
+    padding: 5px;
+    height: 25px;
+    margin: 10px 0px; /* create space between the button */
+}
+
+.contact-form-submit-button{
+    background-color: #1b1b1b; /* Green */
+    border: none;
+    color: #f8f8ff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contact-form-submit-button:hover{
+    background-color: #414a4c;
+}
+
+
+
+/* Contact page footer */
+.contact-page-footer{
+    background-color: #f2f3f4;
+    bottom: 0;
+    color: #3d3d3d;
+    position: fixed;
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 50px;
+    width: 100%;
+}

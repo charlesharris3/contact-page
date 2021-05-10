@@ -1,0 +1,59 @@
+<!--
+    Project Name: QuietCool Manufacturing, Inc. mock contact page
+    Author: Charles Harris III
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>QuietCool Manufacturing, Inc. | Contact Page</title>
+        <meta name="description" content="Mock contact page for Quiet Cool, Inc.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--Contact page header-->
+        <header class="contact-page-header">
+            <img style="height:50px !important;" alt="quietcool logo" nitro-lazy-src="https://cdn-bhbha.nitrocdn.com/fRQliqZxsxmxLnwURcxbtrKwRIDzWCmh/assets/static/optimized/rev-6682893/wp-content/uploads/2020/06/qc-gif-first-draft.gif" class=" ls-is-cached lazyloaded" nitro-lazy-empty="" id="MzMxOjEyNw==-1" src="https://cdn-bhbha.nitrocdn.com/fRQliqZxsxmxLnwURcxbtrKwRIDzWCmh/assets/static/optimized/rev-6682893/wp-content/uploads/2020/06/qc-gif-first-draft.gif">
+        </header>
+        <!--Contact page information container-->
+        <div class="contact-page-info-container">
+            <!--Company contact information-->
+            <div class="contact-page-company-info">
+                <!--Contact details container-->
+                <div class="contact-page-company-info-business-details-container">  
+                    <h1 class="contact-page-company-info-company-name">QuietCool Manufacturing, Inc.</h1>
+                    <p class="contact-page-company-info-business-contact-details">
+                        26040 Ynez Road, Temecula, CA 92591<br>
+                        +951-325-6340<br>
+                        Mon-Fri: 8:00 AM – 5:00 PM PST
+                    </p>
+                </div>
+                <!--Google maps company location-->
+                <div class="contact-page-map"></div>
+            </div>
+            <!--Contact form-->
+            <form class="contact-page-form" action="contact-page.php" method="POST">
+                <input type="text" name="full-name" placeholder="Full Name">
+                <input type="text" name="phone-number" placeholder="Phone Number">
+                <input type="text" name="state" placeholder="State">
+                <input type="text" name="city" placeholder="City">
+                <input type="text" name="email" placeholder="Email">
+                <select name="contact-page-dropdown" class="contact-page-dropdown-menu">
+                    <option value="Homeowner">Homeowner</option>
+                    <option value="Contractor">Contractor</option>
+                    <option value="Dealer">Dealer</option>
+                    <option value="Wholesaler">Wholesaler</option>
+                </select>
+                <textarea name="contact-page-message" cols="40" rows="10"> We want to hear what you have to say.
+                </textarea>
+                <button type="submit" class="contact-form-submit-button">Contact Us</button>
+            </form>
+        </div>
+        <!--Contact page footer-->
+        <footer class="contact-page-footer">
+            <p class="copyright">© 2021 QuietCool – QC Manufacturing, Inc. All Rights Reserved.</p>        
+        </footer>
+    </body>
+</html>
